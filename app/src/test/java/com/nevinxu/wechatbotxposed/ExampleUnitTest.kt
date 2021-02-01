@@ -1,4 +1,4 @@
-package com.blanke.wechatbotxposed
+package com.nevinxu.wechatbotxposed
 
 import org.junit.Test
 

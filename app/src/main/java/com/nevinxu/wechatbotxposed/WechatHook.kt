@@ -1,7 +1,7 @@
-package com.blanke.wechatbotxposed
+package com.nevinxu.wechatbotxposed
 
-import com.blanke.wechatbotxposed.hook.SendMsgHooker
-import com.blanke.wechatbotxposed.hook.WechatMessageHook
+import com.nevinxu.wechatbotxposed.hook.SendMsgHooker
+import com.nevinxu.wechatbotxposed.hook.WechatMessageHook
 import com.gh0u1l5.wechatmagician.spellbook.SpellBook
 import com.gh0u1l5.wechatmagician.spellbook.util.BasicUtil
 import de.robv.android.xposed.IXposedHookLoadPackage
@@ -14,10 +14,8 @@ class WechatHook : IXposedHookLoadPackage {
             if (SpellBook.isImportantWechatProcess(lpparam)) {
                 XposedBridge.log("Hello Wechat!")
                 SpellBook.startup(lpparam, listOf(
-                        WechatMessageHook
-                ), listOf(
-                        SendMsgHooker
-                ))
+                        WechatMessageHook,SendMsgHooker)
+                )
             }
         }
     }

@@ -1,4 +1,4 @@
-package com.blanke.wechatbotxposed
+package com.nevinxu.wechatbotxposed
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4

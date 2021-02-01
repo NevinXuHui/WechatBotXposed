@@ -1,4 +1,4 @@
-package com.blanke.wechatbotxposed.hook
+package com.nevinxu.wechatbotxposed.hook
 
 import de.robv.android.xposed.XposedBridge
 

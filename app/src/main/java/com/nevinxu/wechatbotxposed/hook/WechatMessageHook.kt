@@ -1,6 +1,6 @@
-package com.blanke.wechatbotxposed.hook
+package com.nevinxu.wechatbotxposed.hook
 
-import com.blanke.wechatbotxposed.hook.SendMsgHooker.wxMsgSplitStr
+import com.nevinxu.wechatbotxposed.hook.SendMsgHooker.wxMsgSplitStr
 import com.gh0u1l5.wechatmagician.spellbook.interfaces.IMessageStorageHook
 import de.robv.android.xposed.XposedBridge
 import de.robv.android.xposed.XposedHelpers

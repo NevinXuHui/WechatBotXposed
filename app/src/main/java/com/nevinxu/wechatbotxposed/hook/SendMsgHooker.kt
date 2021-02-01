@@ -1,4 +1,4 @@
-package com.blanke.wechatbotxposed.hook
+package com.nevinxu.wechatbotxposed.hook
 
 import com.gh0u1l5.wechatmagician.spellbook.base.Hooker
 import com.gh0u1l5.wechatmagician.spellbook.base.HookerProvider
